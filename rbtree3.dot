@@ -1,0 +1,7 @@
+
+
+digraph rbtree {
+    node[shape=circle, fontsize=12, fontcolor=white, style=filled, color=skyblue];
+    edge[shape=solid, color=black];
+    200[fillcolor=black];
+}

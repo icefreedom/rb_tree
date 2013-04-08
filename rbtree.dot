@@ -1,0 +1,46 @@
+
+
+digraph rbtree {
+    node[shape=circle, fontsize=12, fontcolor=white, style=filled, color=skyblue];
+    edge[shape=solid, color=black];
+    7[fillcolor=black];
+    2[fillcolor=black];
+    7 -> 2 ;
+    15[fillcolor=black];
+    7 -> 15 ;
+    2[fillcolor=black];
+    1[fillcolor=black];
+    2 -> 1 ;
+    4[fillcolor=black];
+    2 -> 4 ;
+    1[fillcolor=black];
+    4[fillcolor=black];
+    3[fillcolor=red];
+    4 -> 3 ;
+    5[fillcolor=red];
+    4 -> 5 ;
+    3[fillcolor=red];
+    5[fillcolor=red];
+    15[fillcolor=black];
+    10[fillcolor=red];
+    15 -> 10 ;
+    54[fillcolor=black];
+    15 -> 54 ;
+    10[fillcolor=red];
+    9[fillcolor=black];
+    10 -> 9 ;
+    13[fillcolor=black];
+    10 -> 13 ;
+    9[fillcolor=black];
+    13[fillcolor=black];
+    12[fillcolor=red];
+    13 -> 12 ;
+    12[fillcolor=red];
+    54[fillcolor=black];
+    48[fillcolor=red];
+    54 -> 48 ;
+    92[fillcolor=red];
+    54 -> 92 ;
+    48[fillcolor=red];
+    92[fillcolor=red];
+}

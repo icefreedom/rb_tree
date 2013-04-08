@@ -1,0 +1,10 @@
+
+
+digraph rbtree {
+    node[shape=circle, fontsize=12, fontcolor=white, style=filled, color=skyblue];
+    edge[shape=solid, color=black];
+    2[fillcolor=black];
+    1[fillcolor=red];
+    2 -> 1 ;
+    1[fillcolor=red];
+}
